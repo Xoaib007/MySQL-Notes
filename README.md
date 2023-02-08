@@ -47,7 +47,7 @@ name,
 unit_price
 FROM sql_inventory.products;
 ```
-#### Output:
+Output:
    
 ![](./Assets/01selectexmpl.png)
 </div>
@@ -67,7 +67,7 @@ AS command can rename a column and name a new collumn.
  unit_price * 1.1 AS new_price
  FROM sql_inventory.products;
 ```
-#### Output:
+Output:
    
 ![](./Assets/02asexmpl.png) 
    
@@ -85,7 +85,7 @@ DISTINCT clause remove the duplocate data.
 SELECT state
 FROM sql_store.customers;
 ```
-#### Output:
+Output:
 
 ![](./Assets/03distinctexmpl.png) 
 
@@ -93,7 +93,7 @@ FROM sql_store.customers;
 SELECT DISTINCT state
 FROM sql_store.customers;
 ```
-#### Output:
+Output:
 
 ![](./Assets/04distinctexmpl.png) 
    
@@ -112,46 +112,78 @@ SELECT *
 FROM sql_store.orders
 WHERE customer_id = 10
 ```
-#### Output:
+Output:
 
 ![](./Assets/05whereexmpl.png) 
 
-Both Comparison and Logical operators can be use in WHERE clause.
+### MuSQL Logical Operators:
+   - <a href='#and'>AND
+   - <a href='#and'>OR
+   - <a href='#not'>NOT
+   - <a href='#in'>IN
+   - <a href='#and'>NOT IN
+   - <a href='#between'>BETWEEN
 
-##### Comparison Opertors: < , <= , > , >= , = , != , <>
-
-##### Logical Operators: AND , OR , NOT , IN , NOT IN
+<div id='and'>
+   
+#### AND operator
 
 ```javascript
 SELECT *
 FROM sql_store.orders
 WHERE customer_id = 10 AND status > 1
 ```
-#### Output:
+Output:
 
 ![](./Assets/06whereexmpl.png) 
+
+</div>
+   
+<div id='not'>
+   
+#### NOT operator
    
 ```javascript
-<!-- With NOT -->
 <!-- NOT operator doest the oposite of the condition -->
 SELECT *
 FROM sql_store.orders
 WHERE NOT customer_id = 10 AND status > 1
 ```
-#### Output:
+Output:
 
-![](./Assets/07whereexmpl.png) 
+![](./Assets/07whereexmpl.png)
+   
+</div>
+   
+<div id='in'>
+  
+#### IN operator
    
 ```javascript
-<!-- With NOT -->
-<!-- NOT operator doest the oposite of the condition -->
 SELECT *
 FROM sql_store.orders
 <!-- WHERE customer_id = 10 OR  customer_id = 5 OR customer_id = 6-->
 WHERE customer_id IN (10 , 5 , 6)
 ```
-#### Output:
+Output:
 
-![](./Assets/08whereexmpl.png) 
+![](./Assets/08whereexmpl.png)
+   
+   </div>
+   
+<div id='between'>
+   
+#### Between operator
+   
+```javascript
+SELECT DISTINCT *
+FROM sql_store.customers
+WHERE birth_date between '1990-01-01' AND '2000-01-01'
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+</div>
    
 </div>
