@@ -116,7 +116,7 @@ Output:
 
 ![](./Assets/05whereexmpl.png) 
 
-### MuSQL Logical Operators:
+## MuSQL Logical Operators:
    - <a href='#and'>AND
    - <a href='#and'>OR
    - <a href='#not'>NOT
@@ -128,7 +128,7 @@ Output:
 
 <div id='and'>
    
-#### AND operator
+### AND operator
 
 ```javascript
 SELECT *
@@ -143,7 +143,7 @@ Output:
    
 <div id='not'>
    
-#### NOT operator
+### NOT operator
    
 ```javascript
 <!-- NOT operator doest the oposite of the condition -->
@@ -159,7 +159,7 @@ Output:
    
 <div id='in'>
   
-#### IN operator
+### IN operator
    
 ```javascript
 SELECT *
@@ -175,7 +175,7 @@ Output:
    
 <div id='between'>
    
-#### BETWEEN operator
+### BETWEEN operator
    
 ```javascript
 SELECT DISTINCT *
@@ -190,7 +190,7 @@ Output:
    
 <div id='like'>
    
-#### LIKE operator
+### LIKE operator
    
 ```javascript
 SELECT DISTINCT *
@@ -216,9 +216,9 @@ Output:
    
 <div id='regexp'>
    
-#### REGEXP operator
+### REGEXP operator
    
-```javascript
+```sql
 SELECT DISTINCT *
 FROM sql_store.customers
 WHERE birth_date between '1990-01-01' AND '2000-01-01'
