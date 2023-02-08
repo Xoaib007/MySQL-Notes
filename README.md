@@ -36,7 +36,7 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 SELECT statements select data from one or more tables.
 
 ```javascript
-<!-- use asterix (*) to get all the data from the table -->
+<!-- use asterix (*) to get all the column from the table -->
 SELECT *
 FROM sql_inventory.products;
 ```
@@ -207,6 +207,21 @@ SELECT DISTINCT *
 FROM sql_store.customers
 <!--   5 _ means there will be exactly 5 charecter after 'B'  -->
 WHERE first_name LIKE 'B_____'
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+</div>
+   
+<div id='regexp'>
+   
+#### REGEXP operator
+   
+```javascript
+SELECT DISTINCT *
+FROM sql_store.customers
+WHERE birth_date between '1990-01-01' AND '2000-01-01'
 ```
 Output:
 
