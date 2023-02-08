@@ -328,5 +328,24 @@ Output:
 ![](./Assets/07whereexmpl.png) 
    
 </div>
+
+<!-- Order by -->
+   
+<div id='orderby'>
+   
+## ORDER BY
+   
+ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
+   
+```sql
+SELECT * 
+FROM sql_store.orders
+WHERE shipped_date IS NOT NULL
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+</div>
    
 </div>
