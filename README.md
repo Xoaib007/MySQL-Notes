@@ -134,7 +134,7 @@ Output:
 
 <div id="operators">
 
-## MySQL Logical Operators:
+## MySQL Logical Operators & Functions:
 - <a href='#and'>AND
 - <a href='#or'>OR
 - <a href='#not'>NOT
