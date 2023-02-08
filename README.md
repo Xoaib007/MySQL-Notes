@@ -91,3 +91,20 @@ FROM sql_store.customers;
 ![](./Assets/04distinctexmpl.png) 
    
 </div>
+
+<!-- where -->
+
+<div id='where'>
+## WHERE
+   
+The WHERE clause is used to filter records.
+   
+   ```javascript
+SELECT *
+FROM sql_store.orders
+WHERE customer_id = 10
+```
+#### Output:
+
+![](./Assets/05whereexmpl.png) 
+</div>
