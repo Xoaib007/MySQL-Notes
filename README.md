@@ -93,7 +93,7 @@ Output:
 
 <div id='distinct'>
 
-### AS
+### DISTINCT
 
 DISTINCT clause remove the duplocate data.
 
