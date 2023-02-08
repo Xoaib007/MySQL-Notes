@@ -284,15 +284,10 @@ Output:
 ### REGEXP operator
    
 REGEXP performs a pattern match of a string expression against a pattern. The pattern is supplied as an argument.
-   
-```sql
-SELECT *
-FROM sql_store.customers
-WHERE birth_date between '1990-01-01' AND '2000-01-01'
-```
-Output:
 
-![](./Assets/07whereexmpl.png) 
+ #### REGEXP METACHARECTERS:
+
+ ![](./Assets/regexptable.png)
    
 </div>
    
