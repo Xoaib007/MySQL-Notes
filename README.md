@@ -15,14 +15,14 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 # Syntaxes
 
 - <a href='#select'>SELECT</a>
-   - <a href='#'>AS</a>
+   - <a href='#as'>AS</a>
    - DISTINCT
 - From
 - WHERE
-
-<div id='select'>
-   
+ 
+ 
 <!-- Select -->
+<div id='select'>
 
 ## SELECT
 
@@ -39,6 +39,26 @@ SELECT
 name,
 unit_price
 FROM sql_inventory.products;
+```
+Output:
+   
+![]()
+</div>
+
+   
+<!-- AS -->
+<div id='as'>
+   
+### AS
+   
+AS command can rename a column and name a new collumn.
+   
+```javascript
+ SELECT 
+ name,
+ unit_price,
+ unit_price * 1.1 AS new_price
+ FROM sql_inventory.products;
 ```
    
 </div>
