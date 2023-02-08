@@ -9,17 +9,24 @@
 
 I started learning MySQL as a part of advanced web developer learning. Heres all my notes and cheats for MySQL.
 
+# Table of Contents
+
+- <a href='#syntax'>Syntax</a>
+
 
 <!-- Syntaxes -->
 
-# Syntaxes
+<div id='syntax'>
+   
+# Syntax
 
 - <a href='#select'>SELECT</a>
    - <a href='#as'>AS</a>
    - <a href='#distinct'>DISTINCT</a>
 - From
-- <a href='where'>WHERE</a>
- 
+- <a href='#where'>WHERE</a>
+
+</div>
  
 <!-- Select -->
 <div id='select'>
