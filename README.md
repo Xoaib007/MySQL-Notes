@@ -35,13 +35,13 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 
 SELECT statements select data from one or more tables.
 
-```javascript
+```sql
 <!-- use asterix (*) to get all the column from the table -->
 SELECT *
 FROM sql_inventory.products;
 ```
 
-```javascript
+```sql
 SELECT 
 name,
 unit_price
@@ -60,7 +60,7 @@ Output:
    
 AS command can rename a column and name a new collumn.
    
-```javascript
+```sql
  SELECT 
  name,
  unit_price,
@@ -81,7 +81,7 @@ Output:
 
 DISTINCT clause remove the duplocate data.
 
-```javascript
+```sql
 SELECT state
 FROM sql_store.customers;
 ```
@@ -89,7 +89,7 @@ Output:
 
 ![](./Assets/03distinctexmpl.png) 
 
-```javascript
+```sql
 SELECT DISTINCT state
 FROM sql_store.customers;
 ```
@@ -107,7 +107,7 @@ Output:
 
 The WHERE clause is used to filter records.
 
-```javascript
+```sql
 SELECT *
 FROM sql_store.orders
 WHERE customer_id = 10
@@ -130,7 +130,7 @@ Output:
    
 ### AND operator
 
-```javascript
+```sql
 SELECT *
 FROM sql_store.orders
 WHERE customer_id = 10 AND status > 1
@@ -145,7 +145,7 @@ Output:
    
 ### NOT operator
    
-```javascript
+```sql
 <!-- NOT operator doest the oposite of the condition -->
 SELECT *
 FROM sql_store.orders
@@ -161,7 +161,7 @@ Output:
   
 ### IN operator
    
-```javascript
+```sql
 SELECT *
 FROM sql_store.orders
 <!-- WHERE customer_id = 10 OR  customer_id = 5 OR customer_id = 6-->
@@ -177,7 +177,7 @@ Output:
    
 ### BETWEEN operator
    
-```javascript
+```sql
 SELECT DISTINCT *
 FROM sql_store.customers
 WHERE birth_date between '1990-01-01' AND '2000-01-01'
@@ -192,7 +192,7 @@ Output:
    
 ### LIKE operator
    
-```javascript
+```sql
 SELECT DISTINCT *
 FROM sql_store.customers
 <!--   % means there can be any number of charecter after 'B'  -->
@@ -202,7 +202,7 @@ Output:
 
 ![](./Assets/07whereexmpl.png) 
    
-```javascript
+```sql
 SELECT DISTINCT *
 FROM sql_store.customers
 <!--   5 _ means there will be exactly 5 charecter after 'B'  -->
