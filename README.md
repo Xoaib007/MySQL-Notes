@@ -95,11 +95,12 @@ FROM sql_store.customers;
 <!-- where -->
 
 <div id='where'>
-## WHERE
-   
+
+   ## WHERE
+
 The WHERE clause is used to filter records.
-   
-   ```javascript
+
+```javascript
 SELECT *
 FROM sql_store.orders
 WHERE customer_id = 10
@@ -107,4 +108,31 @@ WHERE customer_id = 10
 #### Output:
 
 ![](./Assets/05whereexmpl.png) 
+
+Both Comparison and Logical operators can be use in WHERE clause.
+
+##### Comparison Opertors: < , <= , > , >= , = , != , <>
+
+##### Logical Operators: AND , OR , NOT
+
+```javascript
+SELECT *
+FROM sql_store.orders
+WHERE customer_id = 10 AND status > 1
+```
+#### Output:
+
+![](./Assets/06whereexmpl.png) 
+   
+```javascript
+<!-- With NOT -->
+SELECT *
+FROM sql_store.orders
+WHERE NOT customer_id = 10 AND status > 1
+```
+#### Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+   
 </div>
