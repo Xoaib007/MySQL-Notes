@@ -18,7 +18,7 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
    - <a href='#as'>AS</a>
    - <a href='#distinct'>DISTINCT</a>
 - From
-- WHERE
+- <a href='where'>WHERE</a>
  
  
 <!-- Select -->
@@ -113,7 +113,7 @@ Both Comparison and Logical operators can be use in WHERE clause.
 
 ##### Comparison Opertors: < , <= , > , >= , = , != , <>
 
-##### Logical Operators: AND , OR , NOT
+##### Logical Operators: AND , OR , NOT , IN , NOT IN
 
 ```javascript
 SELECT *
@@ -126,6 +126,7 @@ WHERE customer_id = 10 AND status > 1
    
 ```javascript
 <!-- With NOT -->
+<!-- NOT operator doest the oposite of the condition -->
 SELECT *
 FROM sql_store.orders
 WHERE NOT customer_id = 10 AND status > 1
@@ -134,5 +135,16 @@ WHERE NOT customer_id = 10 AND status > 1
 
 ![](./Assets/07whereexmpl.png) 
    
+```javascript
+<!-- With NOT -->
+<!-- NOT operator doest the oposite of the condition -->
+SELECT *
+FROM sql_store.orders
+<!-- WHERE customer_id = 10 OR  customer_id = 5 OR customer_id = 6-->
+WHERE customer_id IN (10 , 5 , 6)
+```
+#### Output:
+
+![](./Assets/08whereexmpl.png) 
    
 </div>
