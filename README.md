@@ -143,6 +143,8 @@ Output:
 - <a href='#between'>BETWEEN
 - <a href='#like'>LIKE
 - <a href='#regexp'>REGEXP
+- <a href='#isnull'>IS NULL
+- <a href='#isnotnull'>IS NOT NULL
 
 </div>
 
@@ -288,6 +290,40 @@ REGEXP performs a pattern match of a string expression against a pattern. The pa
  #### REGEXP METACHARECTERS:
 
  ![](./Assets/regexptable.png)
+   
+</div>
+   
+<div id='isnull'>
+   
+### IS NULL operator
+   
+IS NULL Condition is used to test for a NULL value.
+   
+```sql
+SELECT * 
+FROM sql_store.orders
+WHERE shipped_date IS NULL
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+</div>
+   
+<div id='isnotnull'>
+   
+### IS NOT NULL operator
+   
+IS NOT NULL condition is used to test for a value that is not null.
+   
+```sql
+SELECT * 
+FROM sql_store.orders
+WHERE shipped_date IS NOT NULL
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
    
 </div>
    
