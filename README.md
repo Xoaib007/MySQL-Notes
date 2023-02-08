@@ -15,7 +15,7 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 ## Syntaxes
 
 - SELECT
-   - <a href='#header'>AS</a>
+   - <a href='#'>AS</a>
    - DISTINCT
 - From
 - WHERE
