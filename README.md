@@ -123,6 +123,8 @@ Output:
    - <a href='#in'>IN
    - <a href='#and'>NOT IN
    - <a href='#between'>BETWEEN
+   - <a href='#like'>LIKE
+   - <a href='#regexp'>REGEXP
 
 <div id='and'>
    
@@ -169,16 +171,42 @@ Output:
 
 ![](./Assets/08whereexmpl.png)
    
-   </div>
+</div>
    
 <div id='between'>
    
-#### Between operator
+#### BETWEEN operator
    
 ```javascript
 SELECT DISTINCT *
 FROM sql_store.customers
 WHERE birth_date between '1990-01-01' AND '2000-01-01'
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+</div>
+   
+<div id='like'>
+   
+#### LIKE operator
+   
+```javascript
+SELECT DISTINCT *
+FROM sql_store.customers
+<!--   % means there can be any number of charecter after 'B'  -->
+WHERE first_name LIKE 'B%'
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+```javascript
+SELECT DISTINCT *
+FROM sql_store.customers
+<!--   5 _ means there will be exactly 5 charecter after 'B'  -->
+WHERE first_name LIKE 'B_____'
 ```
 Output:
 
