@@ -40,9 +40,9 @@ name,
 unit_price
 FROM sql_inventory.products;
 ```
-Output:
+#### Output:
    
-![]()
+![](./Assets/01selectexmpl.png)
 </div>
 
    
