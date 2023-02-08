@@ -41,6 +41,8 @@ MySQL is an open source SQL relational database management system that’s devel
 - From
 - <a href='#where'>WHERE
    - <a href="#operators">Logical Operators
+- <a href='#orderby'>ORDER BY
+   - <a href='#desc'>DESC
 
 </div>
  
