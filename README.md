@@ -9,22 +9,38 @@
 
 I started learning MySQL as a part of advanced web developer learning. Heres all my notes and cheats for MySQL.
 
+```sql
+SELECT *
+FROM sql_inventory.products;
+```
+Basic MySQL statement.
+
 # Table of Contents
 
-- <a href='#syntax'>Syntax</a>
+- <a href='#intro'>Introduction
+- <a href='#syntax'>Syntax
 
+<!-- Introduction -->
 
+<div id="intro">
+
+# What is MySQL ?
+   
+MySQL is an open source SQL relational database management system that’s developed and supported by Oracle. Usually MySQL uses tables to store datas connects it with “keys”. 
+   
+</div>
 <!-- Syntaxes -->
 
 <div id='syntax'>
    
 # Syntax
 
-- <a href='#select'>SELECT</a>
-   - <a href='#as'>AS</a>
-   - <a href='#distinct'>DISTINCT</a>
+- <a href='#select'>SELECT
+   - <a href='#as'>AS
+   - <a href='#distinct'>DISTINCT
 - From
-- <a href='#where'>WHERE</a>
+- <a href='#where'>WHERE
+   - <a href="#operators">Logical Operators
 
 </div>
  
@@ -116,15 +132,19 @@ Output:
 
 ![](./Assets/05whereexmpl.png) 
 
-## MuSQL Logical Operators:
-   - <a href='#and'>AND
-   - <a href='#and'>OR
-   - <a href='#not'>NOT
-   - <a href='#in'>IN
-   - <a href='#and'>NOT IN
-   - <a href='#between'>BETWEEN
-   - <a href='#like'>LIKE
-   - <a href='#regexp'>REGEXP
+<div id="operators">
+
+## MySQL Logical Operators:
+- <a href='#and'>AND
+- <a href='#and'>OR
+- <a href='#not'>NOT
+- <a href='#in'>IN
+- <a href='#and'>NOT IN
+- <a href='#between'>BETWEEN
+- <a href='#like'>LIKE
+- <a href='#regexp'>REGEXP
+
+</div>
 
 <div id='and'>
    
