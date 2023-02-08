@@ -136,10 +136,10 @@ Output:
 
 ## MySQL Logical Operators:
 - <a href='#and'>AND
-- <a href='#and'>OR
+- <a href='#or'>OR
 - <a href='#not'>NOT
 - <a href='#in'>IN
-- <a href='#and'>NOT IN
+- <a href='#notin'>NOT IN
 - <a href='#between'>BETWEEN
 - <a href='#like'>LIKE
 - <a href='#regexp'>REGEXP
@@ -154,6 +154,21 @@ Output:
 SELECT *
 FROM sql_store.orders
 WHERE customer_id = 10 AND status > 1
+```
+Output:
+
+![](./Assets/06whereexmpl.png) 
+
+</div>
+   
+<div id='or'>
+
+### OR operator
+
+```sql
+SELECT *
+FROM sql_store.orders
+WHERE customer_id = 10 OR status > 1
 ```
 Output:
 
@@ -191,6 +206,22 @@ Output:
 
 ![](./Assets/08whereexmpl.png)
    
+</div>
+   
+<div id='notin'>
+
+### NOT IN operator
+
+```sql
+SELECT *
+FROM sql_store.orders
+-- WHERE customer_id = 10 OR  customer_id = 5 OR customer_id = 6
+WHERE customer_id NOT IN (10 , 5 , 6)
+```
+Output:
+
+![](./Assets/08whereexmpl.png)
+
 </div>
    
 <div id='between'>
@@ -239,7 +270,7 @@ Output:
 ### REGEXP operator
    
 ```sql
-SELECT DISTINCT *
+SELECT *
 FROM sql_store.customers
 WHERE birth_date between '1990-01-01' AND '2000-01-01'
 ```
