@@ -149,6 +149,8 @@ Output:
 <div id='and'>
    
 ### AND operator
+   
+AND operator compares two expressions and returns true if both of the expressions are true.
 
 ```sql
 SELECT *
@@ -164,6 +166,8 @@ Output:
 <div id='or'>
 
 ### OR operator
+   
+OR operator compares two expressions and returns TRUE if either of the expressions is TRUE.
 
 ```sql
 SELECT *
@@ -180,6 +184,8 @@ Output:
    
 ### NOT operator
    
+NOT operator reverses or negates the input.
+   
 ```sql
 -- NOT operator doest the oposite of the condition
 SELECT *
@@ -194,7 +200,9 @@ Output:
    
 <div id='in'>
   
-### IN operator
+### IN function
+   
+IN() function finds a match in the given arguments.
    
 ```sql
 SELECT *
@@ -210,8 +218,10 @@ Output:
    
 <div id='notin'>
 
-### NOT IN operator
+### NOT IN function
 
+NOT IN() makes sure that the expression proceeded does not have any of the values present in the arguments.
+   
 ```sql
 SELECT *
 FROM sql_store.orders
@@ -228,6 +238,8 @@ Output:
    
 ### BETWEEN operator
    
+BETWEEN... AND operator checks whether a value is within a range.
+   
 ```sql
 SELECT DISTINCT *
 FROM sql_store.customers
@@ -242,6 +254,8 @@ Output:
 <div id='like'>
    
 ### LIKE operator
+   
+BETWEEN AND operator checks whether a value is within a range.
    
 ```sql
 SELECT DISTINCT *
@@ -268,6 +282,8 @@ Output:
 <div id='regexp'>
    
 ### REGEXP operator
+   
+REGEXP performs a pattern match of a string expression against a pattern. The pattern is supplied as an argument.
    
 ```sql
 SELECT *
