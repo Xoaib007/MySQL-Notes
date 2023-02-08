@@ -12,11 +12,33 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 
 <!-- Syntaxes -->
 
-## Syntaxes
+# Syntaxes
 
-- SELECT
+- <a href='#select'>SELECT</a>
    - <a href='#'>AS</a>
    - DISTINCT
 - From
 - WHERE
 
+<div id='select'>
+   
+<!-- Select -->
+
+## SELECT
+
+SELECT statements select data from one or more tables.
+
+```javascript
+<!-- use asterix (*) to get all the data from the table -->
+SELECT *
+FROM sql_inventory.products;
+```
+
+```javascript
+SELECT 
+name,
+unit_price
+FROM sql_inventory.products;
+```
+   
+</div>
