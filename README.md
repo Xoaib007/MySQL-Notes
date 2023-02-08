@@ -16,7 +16,7 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 
 - <a href='#select'>SELECT</a>
    - <a href='#as'>AS</a>
-   - DISTINCT
+   - <a href='#distinct'>DISTINCT</a>
 - From
 - WHERE
  
@@ -60,5 +60,34 @@ AS command can rename a column and name a new collumn.
  unit_price * 1.1 AS new_price
  FROM sql_inventory.products;
 ```
+#### Output:
+   
+![](./Assets/02asexmpl.png) 
+   
+</div>
+
+<!-- Distinct -->
+
+<div id='distinct'>
+
+### AS
+
+DISTINCT clause remove the duplocate data.
+
+```javascript
+SELECT state
+FROM sql_store.customers;
+```
+#### Output:
+
+![](./Assets/03distinctexmpl.png) 
+
+```javascript
+SELECT DISTINCT state
+FROM sql_store.customers;
+```
+#### Output:
+
+![](./Assets/04distinctexmpl.png) 
    
 </div>
