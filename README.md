@@ -36,7 +36,7 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 SELECT statements select data from one or more tables.
 
 ```sql
-<!-- use asterix (*) to get all the column from the table -->
+-- use asterix (*) to get all the column from the table
 SELECT *
 FROM sql_inventory.products;
 ```
@@ -146,7 +146,7 @@ Output:
 ### NOT operator
    
 ```sql
-<!-- NOT operator doest the oposite of the condition -->
+-- NOT operator doest the oposite of the condition
 SELECT *
 FROM sql_store.orders
 WHERE NOT customer_id = 10 AND status > 1
@@ -164,7 +164,7 @@ Output:
 ```sql
 SELECT *
 FROM sql_store.orders
-<!-- WHERE customer_id = 10 OR  customer_id = 5 OR customer_id = 6-->
+-- WHERE customer_id = 10 OR  customer_id = 5 OR customer_id = 6
 WHERE customer_id IN (10 , 5 , 6)
 ```
 Output:
@@ -195,7 +195,7 @@ Output:
 ```sql
 SELECT DISTINCT *
 FROM sql_store.customers
-<!--   % means there can be any number of charecter after 'B'  -->
+--  % means there can be any number of charecter after 'B'
 WHERE first_name LIKE 'B%'
 ```
 Output:
@@ -205,7 +205,7 @@ Output:
 ```sql
 SELECT DISTINCT *
 FROM sql_store.customers
-<!--   5 _ means there will be exactly 5 charecter after 'B'  -->
+--  5 _ means there will be exactly 5 charecter after 'B'
 WHERE first_name LIKE 'B_____'
 ```
 Output:
