@@ -6,7 +6,7 @@
 </p>
 
    
-# My "MySQL" Notes
+# My "MySQL" Notes  Day-3
 
 I started learning MySQL as a part of advanced web developer learning. Heres all my notes and cheats for MySQL.
 
@@ -343,9 +343,9 @@ Output:
 ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
    
 ```sql
-SELECT * 
-FROM sql_store.orders
-WHERE shipped_date IS NOT NULL
+SELECT *
+FROM sql_store.products
+ORDER BY unit_price
 ```
 Output:
 
@@ -357,12 +357,12 @@ Output:
    
 ### DESC
    
-IS NOT NULL condition is used to test for a value that is not null.
+DESC keyword sorts the records in descending order.
    
 ```sql
-SELECT * 
-FROM sql_store.orders
-WHERE shipped_date IS NOT NULL
+SELECT *
+FROM sql_store.products
+ORDER BY unit_price DESC
 ```
 Output:
 
@@ -374,12 +374,13 @@ Output:
    
 ## LIMIT
    
-ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
+LIMIT clause is used to specify the number of records to return.
    
 ```sql
-SELECT * 
-FROM sql_store.orders
-WHERE shipped_date IS NOT NULL
+SELECT DISTINCT *
+FROM sql_store.customers
+ORDER BY points DESC
+LIMIT 0, 3
 ```
 Output:
 
@@ -391,12 +392,16 @@ Output:
    
 ## JOIN
    
-ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
+JOIN clause is used to combine rows from two or more tables, based on a related column between them.
    
 ```sql
-SELECT * 
+SELECT 
+order_id,
+first_name, 
+last_name
 FROM sql_store.orders
-WHERE shipped_date IS NOT NULL
+JOIN sql_store.customers
+ON orders.customer_id = customers.customer_id
 ```
 Output:
 
