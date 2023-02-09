@@ -45,6 +45,7 @@ MySQL is an open source SQL relational database management system that’s devel
 - <a href='#orderby'>ORDER BY
    - <a href='#desc'>DESC
 - <a href='#limit'>LIMIT
+- <a href='#join'>JOIN
 
 </div>
  
@@ -338,6 +339,57 @@ Output:
 <div id='orderby'>
    
 ## ORDER BY
+   
+ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
+   
+```sql
+SELECT * 
+FROM sql_store.orders
+WHERE shipped_date IS NOT NULL
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+</div>
+   
+<div id='desc'>
+   
+### DESC
+   
+IS NOT NULL condition is used to test for a value that is not null.
+   
+```sql
+SELECT * 
+FROM sql_store.orders
+WHERE shipped_date IS NOT NULL
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+</div>
+   
+<div id='limit'>
+   
+## LIMIT
+   
+ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
+   
+```sql
+SELECT * 
+FROM sql_store.orders
+WHERE shipped_date IS NOT NULL
+```
+Output:
+
+![](./Assets/07whereexmpl.png) 
+   
+</div>
+   
+<div id='join'>
+   
+## JOIN
    
 ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
    
