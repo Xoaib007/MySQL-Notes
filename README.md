@@ -353,9 +353,7 @@ Output:
 </div>
    
 <p align='center'>
-   -
-   -
-   -
+   </br>  </br>  </br>  </br>
    <a href='#top'>Go to top
 </p>
 </div>
