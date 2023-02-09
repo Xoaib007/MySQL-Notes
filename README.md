@@ -166,7 +166,7 @@ WHERE customer_id = 10 AND status > 1
 ```
 Output:
 
-![](./Assets/06whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217868680-484c4b46-d255-40e7-a4ff-86dfece4ba73.png)
 
 </div>
    
@@ -183,7 +183,7 @@ WHERE customer_id = 10 OR status > 1
 ```
 Output:
 
-![](./Assets/06whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217868841-6407d8ca-55cf-42d4-be4d-55492d843634.png)
 
 </div>
    
@@ -201,7 +201,7 @@ WHERE NOT customer_id = 10 AND status > 1
 ```
 Output:
 
-![](./Assets/07whereexmpl.png)
+![image](https://user-images.githubusercontent.com/55616502/217869018-edd7f810-33b8-4e7c-8e3b-114ee3f9935a.png)
    
 </div>
    
