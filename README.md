@@ -405,7 +405,7 @@ ON orders.customer_id = customers.customer_id
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217862510-20c8c8a1-d99b-49bc-830c-950edc519094.png)
    
 </div>
 
