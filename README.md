@@ -349,7 +349,7 @@ ORDER BY unit_price
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217863645-9ce6f440-303c-4120-85ad-81ec6b991f16.png)
    
 </div>
    
@@ -366,7 +366,7 @@ ORDER BY unit_price DESC
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217863771-4e2a44e0-58e4-4a64-84bd-a92fd5c682f2.png)
    
 </div>
    
@@ -384,7 +384,7 @@ LIMIT 0, 3
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217863416-d79ef5c2-7f4f-4706-9d0b-ff6d22da4181.png)
    
 </div>
    
