@@ -292,11 +292,7 @@ Output:
    
 REGEXP performs a pattern match of a string expression against a pattern. The pattern is supplied as an argument.
    
- <a href='https://github.com/Xoaib007/MySQL-Notes/blob/main/REGEXP.md'>know REGEXP in detals
-
- #### REGEXP METACHARECTERS:
-
- ![](./Assets/regexptable.png)
+ <a href='https://github.com/Xoaib007/MySQL-Notes/blob/main/REGEXP.md'>know REGEXP in details
    
 </div>
    
@@ -313,8 +309,8 @@ WHERE shipped_date IS NULL
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
-   
+![image](https://user-images.githubusercontent.com/55616502/217864970-1bf0fd48-ebc6-4ddc-a9b2-0e83ad5d1b63.png)
+  
 </div>
    
 <div id='isnotnull'>
@@ -330,7 +326,7 @@ WHERE shipped_date IS NOT NULL
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217864768-5bfb0cb9-72a8-423d-a1f7-36ab933728e8.png)
    
 </div>
 
