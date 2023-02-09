@@ -71,7 +71,8 @@ FROM sql_inventory.products;
 ```
 Output:
    
-![](./Assets/01selectexmpl.png)
+![image](https://user-images.githubusercontent.com/55616502/217871673-a98a548e-1598-47d1-ba14-5cf8578cb7a0.png)
+
 </div>
 
    
@@ -91,7 +92,7 @@ AS command can rename a column and name a new collumn.
 ```
 Output:
    
-![](./Assets/02asexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217871801-8bba5915-234d-4533-9927-41ff362d2470.png) 
    
 </div>
 
@@ -104,20 +105,22 @@ Output:
 DISTINCT clause remove the duplocate data.
 
 ```sql
+-- without DISTINCT
 SELECT state
 FROM sql_store.customers;
 ```
 Output:
 
-![](./Assets/03distinctexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217872017-a5becefc-2795-47b0-bf6b-665f96f3cf04.png)
 
 ```sql
+-- with DISTINCT
 SELECT DISTINCT state
 FROM sql_store.customers;
 ```
 Output:
 
-![](./Assets/04distinctexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217872128-b4598c73-22fc-4213-9411-bb0f95929ece.png)
    
 </div>
 
@@ -136,7 +139,7 @@ WHERE customer_id = 10
 ```
 Output:
 
-![](./Assets/05whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217872550-7b682676-2ba5-4db6-b106-002131ec7511.png) 
 
 <div id="operators">
 
