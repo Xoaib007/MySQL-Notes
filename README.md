@@ -219,7 +219,7 @@ WHERE customer_id IN (10 , 5 , 6)
 ```
 Output:
 
-![](./Assets/08whereexmpl.png)
+![image](https://user-images.githubusercontent.com/55616502/217868201-0427dddb-68b0-4ca8-bb89-d506fea0a8ce.png)
    
 </div>
    
@@ -232,12 +232,11 @@ NOT IN() makes sure that the expression proceeded does not have any of the value
 ```sql
 SELECT *
 FROM sql_store.orders
--- WHERE customer_id = 10 OR  customer_id = 5 OR customer_id = 6
 WHERE customer_id NOT IN (10 , 5 , 6)
 ```
 Output:
 
-![](./Assets/08whereexmpl.png)
+![image](https://user-images.githubusercontent.com/55616502/217867462-027dd6bb-589f-4668-abfc-9c5e12c544be.png)
 
 </div>
    
@@ -250,11 +249,11 @@ BETWEEN... AND operator checks whether a value is within a range.
 ```sql
 SELECT DISTINCT *
 FROM sql_store.customers
-WHERE birth_date between '1990-01-01' AND '2000-01-01'
+WHERE birth_date BETWEEN '1990-01-01' AND '2000-01-01'
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217867213-f9ae258e-f3c1-4d7f-8f33-435f0c54dfae.png)
    
 </div>
    
@@ -262,7 +261,7 @@ Output:
    
 ### LIKE operator
    
-BETWEEN AND operator checks whether a value is within a range.
+LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
    
 ```sql
 SELECT DISTINCT *
@@ -272,7 +271,7 @@ WHERE first_name LIKE 'B%'
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
+![image](https://user-images.githubusercontent.com/55616502/217866676-bfd1899d-75a0-4b26-9076-27f83ea70112.png)
    
 ```sql
 SELECT DISTINCT *
@@ -282,8 +281,8 @@ WHERE first_name LIKE 'B_____'
 ```
 Output:
 
-![](./Assets/07whereexmpl.png) 
-   
+![image](https://user-images.githubusercontent.com/55616502/217866496-06179544-c71e-4593-9509-2116bf621433.png)
+ 
 </div>
    
 <div id='regexp'>
