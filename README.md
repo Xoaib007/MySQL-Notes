@@ -406,6 +406,20 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217862510-20c8c8a1-d99b-49bc-830c-950edc519094.png)
    
+##### You can also join multiple number of tables.
+
+```sql
+SELECT 
+order_id,
+first_name, 
+last_name
+FROM sql_store.orders
+JOIN sql_store.customers
+ON orders.customer_id = customers.customer_id
+```
+   
+![image](https://user-images.githubusercontent.com/55616502/217963459-5290e02a-40de-4a2c-94a2-d4e53d67f6b5.png)
+
 </div>
 
    
