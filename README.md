@@ -370,6 +370,7 @@ Where o.customer_id = c.customer_id
 #### LEFT JOIN
 
 LEFT JOIN Returns all records from the left table, and the matched records from the right table.
+This type of join returns all rows from the LEFT-hand table specified in the ON condition and only those rows from the other table where the joined fields are equal (join condition is met).
    
 ```sql
 SELECT 
