@@ -34,10 +34,10 @@ Basic MySQL statement. </br>
 
 - [SELECT](#select)
    - [AS](#as)
-   - <a href='#distinct'>DISTINCT
+   - [DISTINCT](#distinct)
 - From
-- <a href='#where'>WHERE
-   - <a href="#operators">Logical Operators
+- [WHERE](#where)
+   - [Logical Operators](#mysql-logical-operators-and-functions)
 - <a href='#orderby'>ORDER BY
    - <a href='#desc'>DESC
 - <a href='#limit'>LIMIT
@@ -80,10 +80,6 @@ Output:
 ![image](https://user-images.githubusercontent.com/55616502/217871801-8bba5915-234d-4533-9927-41ff362d2470.png) 
 
 
-<!-- Distinct -->
-
-<div id='distinct'>
-
 ### DISTINCT
 
 DISTINCT clause remove the duplocate data.
@@ -105,14 +101,9 @@ FROM sql_store.customers;
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217872128-b4598c73-22fc-4213-9411-bb0f95929ece.png)
-   
-</div>
 
-<!-- where -->
 
-<div id='where'>
-
-   ## WHERE
+## WHERE
 
 The WHERE clause is used to filter records.
 
@@ -125,9 +116,7 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217872550-7b682676-2ba5-4db6-b106-002131ec7511.png) 
 
-<div id="operators">
-
-## MySQL Logical Operators & Functions:
+## MySQL Logical Operators and Functions :
 - <a href='#and'>AND
 - <a href='#or'>OR
 - <a href='#not'>NOT
