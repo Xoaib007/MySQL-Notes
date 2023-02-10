@@ -36,7 +36,8 @@ FROM sql_inventory.products;
 ```
 Basic MySQL statement. </br>
 
-   
+</br>
+
 # Syntax
 
 - [SELECT](#select)
@@ -48,6 +49,8 @@ Basic MySQL statement. </br>
 - [ORDER BY](#order-by)
    - [DESC](#desc)
 - [LIMIT](#limit)
+
+</br>
 
 ## SELECT
 
@@ -69,7 +72,8 @@ Output:
    
 ![image](https://user-images.githubusercontent.com/55616502/217871673-a98a548e-1598-47d1-ba14-5cf8578cb7a0.png)
 
-   
+</br>
+
 ### AS
    
 AS command can rename a column and name a new collumn.
