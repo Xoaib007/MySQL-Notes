@@ -127,10 +127,6 @@ Output:
 - <a href='#regexp'>REGEXP
 - <a href='#isnull'>IS NULL
 - <a href='#isnotnull'>IS NOT NULL
-
-</div>
-
-<div id='and'>
    
 ### AND operator
    
@@ -145,10 +141,6 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217868680-484c4b46-d255-40e7-a4ff-86dfece4ba73.png)
 
-</div>
-   
-<div id='or'>
-
 ### OR operator
    
 OR operator compares two expressions and returns TRUE if either of the expressions is TRUE.
@@ -161,10 +153,6 @@ WHERE customer_id = 10 OR status > 1
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217868841-6407d8ca-55cf-42d4-be4d-55492d843634.png)
-
-</div>
-   
-<div id='not'>
    
 ### NOT operator
    
@@ -179,10 +167,6 @@ WHERE NOT customer_id = 10 AND status > 1
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217869018-edd7f810-33b8-4e7c-8e3b-114ee3f9935a.png)
-   
-</div>
-   
-<div id='in'>
   
 ### IN function
    
@@ -197,10 +181,6 @@ WHERE customer_id IN (10 , 5 , 6)
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217868201-0427dddb-68b0-4ca8-bb89-d506fea0a8ce.png)
-   
-</div>
-   
-<div id='notin'>
 
 ### NOT IN function
 
@@ -214,10 +194,6 @@ WHERE customer_id NOT IN (10 , 5 , 6)
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217867462-027dd6bb-589f-4668-abfc-9c5e12c544be.png)
-
-</div>
-   
-<div id='between'>
    
 ### BETWEEN operator
    
@@ -231,10 +207,6 @@ WHERE birth_date BETWEEN '1990-01-01' AND '2000-01-01'
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217867213-f9ae258e-f3c1-4d7f-8f33-435f0c54dfae.png)
-   
-</div>
-   
-<div id='like'>
    
 ### LIKE operator
    
@@ -259,20 +231,13 @@ WHERE first_name LIKE 'B_____'
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217866496-06179544-c71e-4593-9509-2116bf621433.png)
- 
-</div>
-   
-<div id='regexp'>
    
 ### REGEXP operator
    
 REGEXP performs a pattern match of a string expression against a pattern. The pattern is supplied as an argument.
    
  <a href='https://github.com/Xoaib007/MySQL-Notes/blob/main/REGEXP.md'>know REGEXP in details
-   
-</div>
-   
-<div id='isnull'>
+
    
 ### IS NULL operator
    
@@ -286,10 +251,6 @@ WHERE shipped_date IS NULL
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217864970-1bf0fd48-ebc6-4ddc-a9b2-0e83ad5d1b63.png)
-  
-</div>
-   
-<div id='isnotnull'>
    
 ### IS NOT NULL operator
    
@@ -304,12 +265,6 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217864768-5bfb0cb9-72a8-423d-a1f7-36ab933728e8.png)
    
-</div>
-
-<!-- Order by -->
-   
-<div id='orderby'>
-   
 ## ORDER BY
    
 ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
@@ -322,10 +277,6 @@ ORDER BY unit_price
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217863645-9ce6f440-303c-4120-85ad-81ec6b991f16.png)
-   
-</div>
-   
-<div id='desc'>
    
 ### DESC
    
@@ -340,10 +291,6 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217863771-4e2a44e0-58e4-4a64-84bd-a92fd5c682f2.png)
    
-</div>
-   
-<div id='limit'>
-   
 ## LIMIT
    
 LIMIT clause is used to specify the number of records to return.
@@ -357,10 +304,6 @@ LIMIT 0, 3
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217863416-d79ef5c2-7f4f-4706-9d0b-ff6d22da4181.png)
-   
-</div>
-   
-<div id='join'>
    
 ## JOIN
    
@@ -406,11 +349,9 @@ FROM sql_store.orders o, sql_store.customers c
 Where o.customer_id = c.customer_id
 ```
 
-</div>
 
    
 <p align='center'>
    </br>  </br>  </br>  </br>
    <a href='#top'>Go to top
 </p>
-</div>
