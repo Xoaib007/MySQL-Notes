@@ -15,6 +15,7 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 
 - [Introduction](#what-is-mysql)
 - [Syntax](#syntax)
+- [Concepts](#concepts)
 
 <!-- Introduction -->
 
@@ -41,7 +42,6 @@ Basic MySQL statement. </br>
 - [ORDER BY](#order-by)
    - [DESC](#desc)
 - [LIMIT](#limit)
-- [JOIN](#join)
 
 ## SELECT
 
@@ -304,10 +304,25 @@ LIMIT 0, 3
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217863416-d79ef5c2-7f4f-4706-9d0b-ff6d22da4181.png)
+
+# Concepts
+
+- [Join concept](#join-concept)
+    
+## Join Concept
+
+The join we learnt in clause section is called Inner Join. There is also other types of Join in SQL.
+
+### Types of the JOINs in SQL:
+
+- [(INNER) JOIN](#inner-join)
+- [LEFT (OUTER) JOIN](#left-join)
+- [RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table]
+- [FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table]
+    
+### INNER JOIN
    
-## JOIN
-   
-JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+JOIN clause is used to combine rows from two or more tables, based on a related column between them. It returns records that have matching values in both tables
    
 ```sql
 SELECT 
@@ -335,7 +350,8 @@ ON orders.customer_id = customers.customer_id
 ```
    
 ![image](https://user-images.githubusercontent.com/55616502/217963459-5290e02a-40de-4a2c-94a2-d4e53d67f6b5.png)
-   
+    
+       
 ### Implicit Join
    
 Theres another method to join tables. This is quite simple but not recommended. In this method we use WHERE clause instead of JOIN.
@@ -348,8 +364,23 @@ last_name
 FROM sql_store.orders o, sql_store.customers c
 Where o.customer_id = c.customer_id
 ```
+    
+### LEFT JOIN
 
+LEFT JOIN Returns all records from the left table, and the matched records from the right table.
+   
+```sql
+SELECT 
+order_id,
+first_name, 
+last_name
+FROM sql_store.orders
+JOIN sql_store.customers
+ON orders.customer_id = customers.customer_id
+```
+Output:
 
+![image](https://user-images.githubusercontent.com/55616502/217862510-20c8c8a1-d99b-49bc-830c-950edc519094.png)
    
 <p align='center'>
    </br>  </br>  </br>  </br>
