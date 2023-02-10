@@ -117,7 +117,7 @@ Output:
 ![image](https://user-images.githubusercontent.com/55616502/217872550-7b682676-2ba5-4db6-b106-002131ec7511.png) 
 
 ## MySQL Logical Operators and Functions
-- <a href='#and'>AND
+- [AND](#and)
 - <a href='#or'>OR
 - <a href='#not'>NOT
 - <a href='#in'>IN
