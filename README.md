@@ -315,10 +315,11 @@ The join we learnt in clause section is called Inner Join. There is also other t
 
 ### Types of the JOINs in SQL:
 
-- [(INNER) JOIN](#inner-join)
-- [LEFT (OUTER) JOIN](#left-join)
-- [RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table]
-- [FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table]
+- [INNER JOIN](#inner-join)
+- [OUTER JOIN](#outer-join)
+   - [LEFT JOIN](#left-join)
+   - [RIGHT JOIN: Returns all records from the right table, and the matched records from the left table]
+   - [FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table]
     
 ### INNER JOIN
    
@@ -365,7 +366,8 @@ FROM sql_store.orders o, sql_store.customers c
 Where o.customer_id = c.customer_id
 ```
     
-### LEFT JOIN
+### OUTER JOIN
+#### LEFT JOIN
 
 LEFT JOIN Returns all records from the left table, and the matched records from the right table.
    
