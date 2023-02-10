@@ -1,15 +1,21 @@
 <div id='top'>
    
+</br></br>  
+
 <!-- Logo-->
 <p align="center">
 <img src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" width="250" height="156" align="center" />
-</p>
+</p> 
+   
+</br> </br></br>
 
    
 # My "MySQL" Notes  Day-4
 
 I started learning MySQL as a part of advanced web developer learning. Heres all my notes and cheats for MySQL. </br>
 <a href='https://github.com/Xoaib007/MySQL-Notes/tree/main/Assets/Materials'>Materials I used to demonstrate the examples.
+   
+</br>
 
 # Table of Contents
 
@@ -17,7 +23,7 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 - [Syntax](#syntax)
 - [Concepts](#concepts)
 
-<!-- Introduction -->
+</br>
 
 
 # What is MySQL
