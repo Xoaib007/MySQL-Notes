@@ -38,10 +38,10 @@ Basic MySQL statement. </br>
 - From
 - [WHERE](#where)
    - [Logical Operators](#mysql-logical-operators-and-functions)
-- <a href='#orderby'>ORDER BY
-   - <a href='#desc'>DESC
-- <a href='#limit'>LIMIT
-- <a href='#join'>JOIN
+- [ORDER BY](#order-by)
+   - [DESC](#desc)
+- [LIMIT](#limit)
+- [JOIN](#join)
 
 ## SELECT
 
@@ -116,7 +116,7 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217872550-7b682676-2ba5-4db6-b106-002131ec7511.png) 
 
-## MySQL Logical Operators and Functions :
+## MySQL Logical Operators and Functions
 - <a href='#and'>AND
 - <a href='#or'>OR
 - <a href='#not'>NOT
