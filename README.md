@@ -10,13 +10,6 @@
 
 I started learning MySQL as a part of advanced web developer learning. Heres all my notes and cheats for MySQL. </br>
 <a href='https://github.com/Xoaib007/MySQL-Notes/tree/main/Assets/Materials'>Materials I used to demonstrate the examples.
-   
-
-```sql
-SELECT *
-FROM sql_inventory.products;
-```
-Basic MySQL statement. </br>
 
 # Table of Contents
 
@@ -28,7 +21,14 @@ Basic MySQL statement. </br>
 
 # What is MySQL
    
-MySQL is an open source SQL relational database management system that’s developed and supported by Oracle. Usually MySQL uses tables to store datas connects it with “keys”. 
+MySQL is an open source SQL relational database management system that’s developed and supported by Oracle. Usually MySQL uses tables to store datas connects it with “keys”.  
+   
+```sql
+SELECT *
+FROM sql_inventory.products;
+```
+Basic MySQL statement. </br>
+
    
 # Syntax
 
