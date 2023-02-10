@@ -6,39 +6,34 @@
 </p>
 
    
-# My "MySQL" Notes  Day-3
+# My "MySQL" Notes  Day-4
 
 I started learning MySQL as a part of advanced web developer learning. Heres all my notes and cheats for MySQL. </br>
 <a href='https://github.com/Xoaib007/MySQL-Notes/tree/main/Assets/Materials'>Materials I used to demonstrate the examples.
+   
 
 ```sql
 SELECT *
 FROM sql_inventory.products;
 ```
-Basic MySQL statement.
+Basic MySQL statement. </br>
 
 # Table of Contents
 
-- <a href='#intro'>Introduction
-- <a href='#syntax'>Syntax
+- [Introduction](#what-is-mysql)
+- [Syntax](#syntax)
 
 <!-- Introduction -->
 
-<div id="intro">
 
-# What is MySQL ?
+# What is MySQL
    
 MySQL is an open source SQL relational database management system that’s developed and supported by Oracle. Usually MySQL uses tables to store datas connects it with “keys”. 
    
-</div>
-<!-- Syntaxes -->
-
-<div id='syntax'>
-   
 # Syntax
 
-- <a href='#select'>SELECT
-   - <a href='#as'>AS
+- [SELECT](#select)
+   - [AS](#as)
    - <a href='#distinct'>DISTINCT
 - From
 - <a href='#where'>WHERE
@@ -47,11 +42,6 @@ MySQL is an open source SQL relational database management system that’s devel
    - <a href='#desc'>DESC
 - <a href='#limit'>LIMIT
 - <a href='#join'>JOIN
-
-</div>
- 
-<!-- Select -->
-<div id='select'>
 
 ## SELECT
 
@@ -73,11 +63,6 @@ Output:
    
 ![image](https://user-images.githubusercontent.com/55616502/217871673-a98a548e-1598-47d1-ba14-5cf8578cb7a0.png)
 
-</div>
-
-   
-<!-- AS -->
-<div id='as'>
    
 ### AS
    
@@ -93,8 +78,7 @@ AS command can rename a column and name a new collumn.
 Output:
    
 ![image](https://user-images.githubusercontent.com/55616502/217871801-8bba5915-234d-4533-9927-41ff362d2470.png) 
-   
-</div>
+
 
 <!-- Distinct -->
 
@@ -419,6 +403,19 @@ ON orders.customer_id = customers.customer_id
 ```
    
 ![image](https://user-images.githubusercontent.com/55616502/217963459-5290e02a-40de-4a2c-94a2-d4e53d67f6b5.png)
+   
+### Implicit Join
+   
+Theres another method to join tables. This is quite simple but not recommended. In this method we use WHERE clause instead of JOIN.
+   
+```sql
+SELECT 
+order_id,
+first_name, 
+last_name
+FROM sql_store.orders o, sql_store.customers c
+Where o.customer_id = c.customer_id
+```
 
 </div>
 
