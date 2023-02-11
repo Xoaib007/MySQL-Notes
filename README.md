@@ -89,6 +89,7 @@ Output:
    
 ![image](https://user-images.githubusercontent.com/55616502/217871801-8bba5915-234d-4533-9927-41ff362d2470.png) 
 
+</br>
 
 ### DISTINCT
 
@@ -112,6 +113,7 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217872128-b4598c73-22fc-4213-9411-bb0f95929ece.png)
 
+</br>
 
 ## WHERE
 
@@ -126,6 +128,8 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217872550-7b682676-2ba5-4db6-b106-002131ec7511.png) 
 
+</br>
+
 ## MySQL Logical Operators and Functions
 - [AND](#and)
 - <a href='#or'>OR
@@ -137,6 +141,8 @@ Output:
 - <a href='#regexp'>REGEXP
 - <a href='#isnull'>IS NULL
 - <a href='#isnotnull'>IS NOT NULL
+
+   </br>
    
 ### AND operator
    
@@ -151,6 +157,8 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217868680-484c4b46-d255-40e7-a4ff-86dfece4ba73.png)
 
+   </br>
+   
 ### OR operator
    
 OR operator compares two expressions and returns TRUE if either of the expressions is TRUE.
@@ -163,6 +171,8 @@ WHERE customer_id = 10 OR status > 1
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217868841-6407d8ca-55cf-42d4-be4d-55492d843634.png)
+  
+   </br>
    
 ### NOT operator
    
@@ -177,7 +187,9 @@ WHERE NOT customer_id = 10 AND status > 1
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217869018-edd7f810-33b8-4e7c-8e3b-114ee3f9935a.png)
-  
+ 
+   </br>
+   
 ### IN function
    
 IN() function finds a match in the given arguments.
@@ -192,6 +204,8 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217868201-0427dddb-68b0-4ca8-bb89-d506fea0a8ce.png)
 
+   </br>
+   
 ### NOT IN function
 
 NOT IN() makes sure that the expression proceeded does not have any of the values present in the arguments.
@@ -205,6 +219,8 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217867462-027dd6bb-589f-4668-abfc-9c5e12c544be.png)
    
+   </br>
+   
 ### BETWEEN operator
    
 BETWEEN... AND operator checks whether a value is within a range.
@@ -217,6 +233,8 @@ WHERE birth_date BETWEEN '1990-01-01' AND '2000-01-01'
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217867213-f9ae258e-f3c1-4d7f-8f33-435f0c54dfae.png)
+   
+   </br>
    
 ### LIKE operator
    
@@ -241,6 +259,8 @@ WHERE first_name LIKE 'B_____'
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217866496-06179544-c71e-4593-9509-2116bf621433.png)
+  
+   </br>
    
 ### REGEXP operator
    
@@ -248,6 +268,7 @@ REGEXP performs a pattern match of a string expression against a pattern. The pa
    
  <a href='https://github.com/Xoaib007/MySQL-Notes/blob/main/REGEXP.md'>know REGEXP in details
 
+</br>
    
 ### IS NULL operator
    
@@ -262,6 +283,8 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217864970-1bf0fd48-ebc6-4ddc-a9b2-0e83ad5d1b63.png)
    
+   </br>
+   
 ### IS NOT NULL operator
    
 IS NOT NULL condition is used to test for a value that is not null.
@@ -274,7 +297,9 @@ WHERE shipped_date IS NOT NULL
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217864768-5bfb0cb9-72a8-423d-a1f7-36ab933728e8.png)
-   
+
+</br>
+
 ## ORDER BY
    
 ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
@@ -288,6 +313,8 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217863645-9ce6f440-303c-4120-85ad-81ec6b991f16.png)
    
+   </br>
+   
 ### DESC
    
 DESC keyword sorts the records in descending order.
@@ -300,6 +327,8 @@ ORDER BY unit_price DESC
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217863771-4e2a44e0-58e4-4a64-84bd-a92fd5c682f2.png)
+   
+   </br>
    
 ## LIMIT
    
@@ -315,13 +344,18 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217863416-d79ef5c2-7f4f-4706-9d0b-ff6d22da4181.png)
 
+</br>
+
 # Concepts
 
 - [Join concept](#join-concept)
     
+    </br>
+    
 ## Join Concept
 
 The join we learnt in clause section is called Inner Join. There is also other types of Join in SQL.
+
 
 ### Types of the JOINs in SQL:
 
@@ -330,6 +364,8 @@ The join we learnt in clause section is called Inner Join. There is also other t
    - [LEFT JOIN](#left-join)
    - [RIGHT JOIN: Returns all records from the right table, and the matched records from the left table]
    - [FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table]
+    
+    </br>
     
 ### INNER JOIN
    
@@ -362,6 +398,7 @@ ON orders.customer_id = customers.customer_id
    
 ![image](https://user-images.githubusercontent.com/55616502/217963459-5290e02a-40de-4a2c-94a2-d4e53d67f6b5.png)
     
+       </br>
        
 ### Implicit Join
    
@@ -375,6 +412,8 @@ last_name
 FROM sql_store.orders o, sql_store.customers c
 Where o.customer_id = c.customer_id
 ```
+    
+    </br>
     
 ### OUTER JOIN
 #### LEFT JOIN
@@ -394,6 +433,8 @@ ON orders.customer_id = customers.customer_id
 Output:
 
 ![image](https://user-images.githubusercontent.com/55616502/217862510-20c8c8a1-d99b-49bc-830c-950edc519094.png)
+    
+    </br>
     
 #### RIGHT JOIN
 
