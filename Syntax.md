@@ -1,3 +1,14 @@
+<div id='top'>
+   
+</br></br>  
+
+<!-- Logo-->
+<p align="center">
+<img src="https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png" width="250" height="156" align="center" />
+</p> 
+
+</br> </br></br>
+
 # Syntax
 
 - [SELECT](#select)
