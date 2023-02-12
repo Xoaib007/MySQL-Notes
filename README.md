@@ -576,6 +576,7 @@ MySQL provides a set of some basic but most essential operations that will help 
 
 - [Create (INSERT)](#insert)
    - [INSERT multiple rows](#insert-multiple-rows)
+   - [CREATE a new table](#create-table)
 - [READ](#read)
 - [UPDATE](#update)
 - [DELETE](#delete)
