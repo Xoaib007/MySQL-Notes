@@ -307,7 +307,7 @@ Output:
 
 </br>
 
-## ORDER BY
+### ORDER BY
    
 ORDER BY clause is used to sort the records in your result set. By default ORDER BY sets data in ascending order.
    
@@ -337,7 +337,7 @@ Output:
    
    </br>
    
-## LIMIT
+### LIMIT
    
 LIMIT clause is used to specify the number of records to return.
    
@@ -353,7 +353,7 @@ Output:
 
 </br>
 
-## JOIN
+### JOIN
 
 JOIN clause is used to combine rows from two or more tables, based on a related column between them.
 
