@@ -423,6 +423,7 @@ Output:
 </h1>
 
 - [Join concept](#join-concept)
+- [CRUD operations](#crud-operation)
     
     </br>
     
@@ -441,6 +442,8 @@ The join we learnt in clause section is called Inner Join. There is also other t
    - [LEFT JOIN](#left-join)
    - [RIGHT JOIN: Returns all records from the right table, and the matched records from the left table]
    - [FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table]
+- [CROSS JOIN](#cross-join)
+- [Union](#union)
     
     </br>
     
@@ -560,6 +563,17 @@ Where o.customer_id = c.customer_id
 
 <!-- Cross join -->
 <!-- Union -->
+
+</br> </br> </br>
+
+## CRUD operations
+
+MySQL provides a set of some basic but most essential operations that will help you to easily interact with the MySQL database and these operations are known as CRUD operations. 
+
+- [Create (INSERT)](#insert)
+- [READ](#read)
+- [UPDATE](#update)
+- [DELETE](#delete)
 
 <p align='center'>
    </br>  </br>  </br>  </br>
