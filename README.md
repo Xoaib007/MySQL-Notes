@@ -389,7 +389,30 @@ ON orders.customer_id = customers.customer_id
 ```
 ![image](https://user-images.githubusercontent.com/55616502/218289583-93688b58-91ac-4ce6-bdcd-5bb3c9ea8c53.png)
 
+</br>
 
+### USING
+
+'If several columns have the same names but the datatypes do not match, the NATURAL JOIN clause can be modified with the USING clause to specify the columns that should be used for an EQUIJOIN.
+
+##### Now, look at the code of ON clause example. You'll see a lot of repeatation of 'customer._id'. </br>
+##### To make code more readable and easy, we can use USING clause instead of ON. </br>
+##### But there's a catch. To use USING, the column name of both table have to be exactly same.
+
+```sql
+SELECT 
+order_id,
+first_name, 
+last_name
+FROM sql_store.orders
+JOIN sql_store.customers
+USING (customer_id)
+```
+Output:
+
+![image](https://user-images.githubusercontent.com/55616502/218290477-844fafd9-df1f-4afe-b6f3-de8210b054cf.png)
+
+</br>
 
 # Concepts
 
