@@ -561,6 +561,10 @@ Where o.customer_id = c.customer_id
 
 </br>
 
+<!-- Join across db -->
+<!-- Self join -->
+<!-- joining multiple tables -->
+<!-- Compound joining conditions -->
 <!-- Cross join -->
 <!-- Union -->
 
@@ -571,9 +575,12 @@ Where o.customer_id = c.customer_id
 MySQL provides a set of some basic but most essential operations that will help you to easily interact with the MySQL database and these operations are known as CRUD operations. 
 
 - [Create (INSERT)](#insert)
+   - [INSERT multiple rows](#insert-multiple-rows)
 - [READ](#read)
 - [UPDATE](#update)
 - [DELETE](#delete)
+
+
 
 <p align='center'>
    </br>  </br>  </br>  </br>
