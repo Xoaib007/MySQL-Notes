@@ -558,6 +558,9 @@ Where o.customer_id = c.customer_id
 
 </br>
 
+<!-- Cross join -->
+<!-- Union -->
+
 <p align='center'>
    </br>  </br>  </br>  </br>
    <a href='#top'>Go to top
