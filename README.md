@@ -414,6 +414,21 @@ Output:
 
 </br>
 
+
+### NATURAL JOIN
+
+Another way of joining table is NATURAL JOIN. In this method we dont have to mention the matching columns in ON clause. SQL will automaticly find the matching column by their name and join them. </br>
+This might seems very easy and efficient but this method is not recomended at all. This is a bit dengerous. Because we are giving away the whole control to MySQL engene, which may produce some unexpected results.
+
+```sql
+SELECT 
+order_id,
+first_name, 
+last_name
+FROM sql_store.orders
+NATURAL JOIN sql_store.customers
+```
+
 # Concepts
 
 - [Join concept](#join-concept)
