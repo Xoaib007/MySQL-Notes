@@ -581,6 +581,9 @@ MySQL provides a set of some basic but most essential operations that will help 
 - [UPDATE](#update)
 - [DELETE](#delete)
 
+### INSERT
+
+
 
 
 <p align='center'>
