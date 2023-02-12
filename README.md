@@ -19,14 +19,13 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
 
 # Table of Contents
 
-- [Introduction](#what-is-mysql)
 - [Syntax](https://github.com/Xoaib007/MySQL-Notes/blob/main/Syntax.md)
 - [Concepts](https://github.com/Xoaib007/MySQL-Notes/blob/main/Concepts.md)
 
 </br>
 
 
-# What is MySQL
+# What is MySQL ?
    
 MySQL is an open source SQL relational database management system that’s developed and supported by Oracle. Usually MySQL uses tables to store datas connects it with “keys”.  
    
