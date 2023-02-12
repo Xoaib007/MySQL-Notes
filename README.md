@@ -52,6 +52,8 @@ Basic MySQL statement. </br>
 - [JOIN](#join)
    - [ON](#on)
    - [USING](#using)
+   - [Implicit Join](#implicit-join)
+   - [NATURAL JOIN](#natural-join)
 
 </br>
 
@@ -428,6 +430,26 @@ last_name
 FROM sql_store.orders
 NATURAL JOIN sql_store.customers
 ```
+Output:
+
+![image](https://user-images.githubusercontent.com/55616502/218291737-f7df2c58-5da2-445e-9836-f75855e0573b.png)
+
+</br>
+
+### Implicit Join
+   
+Theres another method to join tables. This is quite simple but not recommended. In this method we use WHERE clause instead of JOIN.
+   
+```sql
+SELECT 
+order_id,
+first_name, 
+last_name
+FROM sql_store.orders o, sql_store.customers c
+Where o.customer_id = c.customer_id
+```
+
+</br>
 
 # Concepts
 
@@ -480,21 +502,6 @@ ON orders.customer_id = customers.customer_id
 ```
    
 ![image](https://user-images.githubusercontent.com/55616502/217963459-5290e02a-40de-4a2c-94a2-d4e53d67f6b5.png)
-    
-       </br>
-       
-### Implicit Join
-   
-Theres another method to join tables. This is quite simple but not recommended. In this method we use WHERE clause instead of JOIN.
-   
-```sql
-SELECT 
-order_id,
-first_name, 
-last_name
-FROM sql_store.orders o, sql_store.customers c
-Where o.customer_id = c.customer_id
-```
     
     </br>
     
