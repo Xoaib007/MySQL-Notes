@@ -17,16 +17,19 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
    
 </br>
 
-# Table of Contents
+## Table of Contents
 
-- [Syntax](#syntax)
+- [Introduction](#intro)
+-  [Syntax](#syntax)
 - [Concepts](#concepts)
 
-</br>
+</br> </br> </br>
 
 
-# What is MySQL ?
-   
+<h1 align='center' id='intro'>
+    What is MySQL ?
+</h1>
+
 MySQL is an open source SQL relational database management system that’s developed and supported by Oracle. Usually MySQL uses tables to store datas connects it with “keys”.  
    
 ```sql
@@ -35,7 +38,7 @@ FROM sql_inventory.products;
 ```
 Basic MySQL statement. </br>
 
-</br>
+</br> </br> </br>
 
 <h1 align='center' id='syntax'>
    Syntaxes
@@ -56,7 +59,7 @@ Basic MySQL statement. </br>
    
 </br>
 
-## SELECT
+### SELECT
 
 SELECT statements select data from one or more tables.
 
@@ -415,7 +418,7 @@ Output:
 
 </br> </br> </br>
 
-<h1 align='center' id='concept'>
+<h1 align='center' id='concepts'>
  Concepts  
 </h1>
 
