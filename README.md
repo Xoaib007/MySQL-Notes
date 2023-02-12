@@ -432,7 +432,7 @@ Output:
 The join we learnt in clause section is called Inner Join. There is also other types of Join in SQL.
 
 - [Types](#Types-of-the-joins-in-sql)
-- [Use cases]
+- [Use cases](#use-cases)
 - [Alternative Methods](#alternative-methods-of-join)
 
 ## Types of the JOINs in SQL
