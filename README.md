@@ -143,11 +143,11 @@ Output:
 - [NOT](#not)
 - [IN](#in)
 - [NOT IN](#notin)
-- <a href='#between'>BETWEEN
-- <a href='#like'>LIKE
-- <a href='#regexp'>REGEXP
-- <a href='#isnull'>IS NULL
-- <a href='#isnotnull'>IS NOT NULL
+- [BETWEEN](#between)
+- [LIKE](#like)
+- [REGEXP](#regexp)
+- [IS NULL](#isnull)
+- [IS NOT NULL](#isnotnull)
 
    </br>
    
