@@ -122,7 +122,7 @@ Output:
 
 </br>
 
-## WHERE
+### WHERE
 
 The WHERE clause is used to filter records.
 
@@ -139,10 +139,10 @@ Output:
 
 ## MySQL Logical Operators and Functions
 - [AND](#and)
-- <a href='#or'>OR
-- <a href='#not'>NOT
-- <a href='#in'>IN
-- <a href='#notin'>NOT IN
+- [OR](#or)
+- [NOT](#not)
+- [IN](#in)
+- [NOT IN](#notin)
 - <a href='#between'>BETWEEN
 - <a href='#like'>LIKE
 - <a href='#regexp'>REGEXP
