@@ -10,7 +10,7 @@
 </br> </br></br>
 
    
-# My "MySQL" Notes  Day-4
+# My "MySQL" Notes  Day-5
 
 I started learning MySQL as a part of advanced web developer learning. Heres all my notes and cheats for MySQL. </br>
 <a href='https://github.com/Xoaib007/MySQL-Notes/tree/main/Assets/Materials'>Materials I used to demonstrate the examples.
@@ -49,6 +49,9 @@ Basic MySQL statement. </br>
 - [ORDER BY](#order-by)
    - [DESC](#desc)
 - [LIMIT](#limit)
+- [JOIN](#join)
+   - [ON](#on)
+   - [USING](#using)
 
 </br>
 
@@ -345,6 +348,48 @@ Output:
 ![image](https://user-images.githubusercontent.com/55616502/217863416-d79ef5c2-7f4f-4706-9d0b-ff6d22da4181.png)
 
 </br>
+
+## JOIN
+
+JOIN clause is used to combine rows from two or more tables, based on a related column between them.
+
+USE sql_invoicing;
+
+```sql
+SELECT 
+payment_id,
+c.name,
+date,
+amount,
+pm.name as payment_method
+FROM sql_invoicing.payments p
+JOIN clients c
+	ON p.client_id = c.client_id
+JOIN payment_methods pm
+	ON p.payment_method = pm.payment_method_id
+```
+   
+![image](https://user-images.githubusercontent.com/55616502/218289843-a396143a-03c9-4af5-9b3d-c723f1ce78c6.png)
+
+
+[Know more about JOIN concept.](#join-concept)
+
+### ON
+
+The join condition for the natural join is basically an EQUIJOIN of all columns with same name. To specify arbitrary conditions or specify columns to join, the ON Clause is used.
+
+```sql
+SELECT 
+order_id,
+first_name, 
+last_name
+FROM sql_store.orders
+JOIN sql_store.customers
+ON orders.customer_id = customers.customer_id
+```
+![image](https://user-images.githubusercontent.com/55616502/218289583-93688b58-91ac-4ce6-bdcd-5bb3c9ea8c53.png)
+
+
 
 # Concepts
 
