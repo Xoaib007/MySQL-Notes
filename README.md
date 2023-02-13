@@ -432,7 +432,7 @@ Output:
 The join we learnt in clause section is called Inner Join. There is also other types of Join in SQL.
 
 - [Types](#Types-of-the-joins-in-sql)
-- [Use cases](#use-cases)
+- [Use cases]
 - [Alternative Methods](#alternative-methods-of-join)
 
 ## Types of the JOINs in SQL
@@ -568,6 +568,30 @@ Where o.customer_id = c.customer_id
 <!-- Cross join -->
 <!-- Union -->
 
+<!-- SELECT 
+customer_id,
+first_name as Name,
+points AS Points,
+'Bronze' AS Category
+FROM sql_store.customers
+WHERE points < 2000
+UNION
+SELECT 
+customer_id,
+first_name ,
+points,
+'Silver'
+FROM sql_store.customers
+WHERE points > 2000 AND points < 3000
+UNION
+SELECT 
+customer_id,
+first_name,
+points,
+'Gold'
+FROM sql_store.customers
+WHERE points > 3000 -->
+
 </br> </br> </br>
 
 ## CRUD operations
@@ -576,13 +600,10 @@ MySQL provides a set of some basic but most essential operations that will help 
 
 - [Create (INSERT)](#insert)
    - [INSERT multiple rows](#insert-multiple-rows)
-   - [CREATE a new table](#create-table)
+   - [INSERT hirearchial row](#insert-hirearchial-row)
 - [READ](#read)
 - [UPDATE](#update)
 - [DELETE](#delete)
-
-### INSERT
-
 
 
 
