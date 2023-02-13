@@ -49,7 +49,7 @@ Basic MySQL statement. </br>
    - [DISTINCT](#distinct)
 - From
 - [WHERE](#where)
-   - [Logical Operators](#mysql-logical-operators-and-functions)
+   - [Logical Operators](#mysql-operators-and-functions)
 - [ORDER BY](#order-by)
    - [DESC](#desc)
 - [LIMIT](#limit)
@@ -149,10 +149,6 @@ Output:
 - [REGEXP](#regexp-operator)
 - [IS NULL](#isnull-operator)
 - [IS NOT NULL](#isnotnull-operator)
-- [LIMIT](#limit)
-- [JOIN](#join)
-	- [ON](#on)
-	- [USING](#using) 
 
    </br>
    
