@@ -139,16 +139,20 @@ Output:
 
 ## MySQL Operators and Functions
 - [Logical operators](#logical-operators)
-	- [AND](#and)
-	- [OR](#or)
-	- [NOT](#not)
-- [IN](#in)
-- [NOT IN](#notin)
-- [BETWEEN](#between)
-- [LIKE](#like)
-- [REGEXP](#regexp)
-- [IS NULL](#isnull)
-- [IS NOT NULL](#isnotnull)
+	- [AND](#and-operator)
+	- [OR](#or-operator)
+	- [NOT](#not-operator)
+- [IN](#in-function)
+- [NOT IN](#notin-function)
+- [BETWEEN](#between-operator)
+- [LIKE](#like-operator)
+- [REGEXP](#regexp-operator)
+- [IS NULL](#isnull-operator)
+- [IS NOT NULL](#isnotnull-operator)
+- [LIMIT](#limit)
+- [JOIN](#join)
+	- [ON](#on)
+	- [USING](#using) 
 
    </br>
    
