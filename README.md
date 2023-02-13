@@ -606,6 +606,8 @@ MySQL provides a set of some basic but most essential operations that will help 
    - [INSERT hirearchial row](#insert-hirearchial-row)
 - [READ](#read)
 - [UPDATE](#update)
+    - [INSERT multiple rows](#insert-multiple-rows)
+    - [Using subqueries in UPDATE](#subqueries-in-update)
 - [DELETE](#delete)
 
 
