@@ -138,7 +138,7 @@ Output:
 </br>
 
 ## MySQL Operators and Functions
--[Logical operators](#logical-operators)
+- [Logical operators](#logical-operators)
 	- [AND](#and)
 	- [OR](#or)
 	- [NOT](#not)
