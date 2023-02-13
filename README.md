@@ -137,10 +137,11 @@ Output:
 
 </br>
 
-## MySQL Logical Operators and Functions
-- [AND](#and)
-- [OR](#or)
-- [NOT](#not)
+## MySQL Operators and Functions
+-[Logical operators](#logical-operators)
+	- [AND](#and)
+	- [OR](#or)
+	- [NOT](#not)
 - [IN](#in)
 - [NOT IN](#notin)
 - [BETWEEN](#between)
@@ -151,6 +152,8 @@ Output:
 
    </br>
    
+## Logical operators
+
 ### AND operator
    
 AND operator compares two expressions and returns true if both of the expressions are true.
