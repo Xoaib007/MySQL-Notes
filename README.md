@@ -10,7 +10,7 @@
 </br> </br></br>
 
    
-# My "MySQL" Notes  Day-8
+# My "MySQL" Notes  Day-8 (Uncomplete)
 
 I started learning MySQL as a part of advanced web developer learning. Heres all my notes and cheats for MySQL. </br>
 <a href='https://github.com/Xoaib007/MySQL-Notes/tree/main/Assets/Materials'>Materials I used to demonstrate the examples.
