@@ -30,7 +30,11 @@ I started learning MySQL as a part of advanced web developer learning. Heres all
     What is MySQL ?
 </h1>
 
-MySQL is an open source SQL relational database management system that’s developed and supported by Oracle. Usually MySQL uses tables to store datas connects it with “keys”.  
+MySQL is an open source SQL relational database management system that’s developed and supported by Oracle. Usually MySQL uses tables to store datas connects it with “keys”. 
+<br/> <br/>
+Now the question is what is sql database. Basically a SQL database is the collectionb of tables of datas. SQL means Structured Query Language. This query language is used to create relation between all the tables. 
+<br/><br/>
+SQL is used when theres a huge amount of tables and data. SQL make it easy to structured these data as the user wants, fromn on table to another. One single statement can give you access to one or more table related to a specific data.
    
 ```sql
 SELECT *
@@ -61,7 +65,7 @@ Basic MySQL statement. </br>
 
 ### SELECT
 
-SELECT statements select data from one or more tables.
+SELECT select data from one or more tables.
 
 ```sql
 -- use asterix (*) to get all the column from the table
